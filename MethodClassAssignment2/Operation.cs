@@ -11,12 +11,13 @@ namespace MethodClassAssignment2
         //Create a class. In that class, create a void method that takes two integers as parameters.
         //Have the method do a math operation on the first integer and display the second integer to the screen.
 
-        public  Operation() 
+        public  Operation(int num1, int num2) 
         {
-            int num1 = 4;
-            int result = num1 * 2;
-            Console.WriteLine(result);
-            Console.ReadLine();
+            //Perform some math operation on the first integer
+            num1 = num2 *2;
+            Console.WriteLine("The result of the operationon the first integer is:{num1}");
+            Console.WriteLine("The second integer is:{num2}");
+            
         }
     }
 }
