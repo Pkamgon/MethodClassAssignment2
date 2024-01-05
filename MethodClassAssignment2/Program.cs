@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace MethodClassAssignment2
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main(string[] args)
         {
             //Instantiate Operation class
             Operation operation = new Operation();
-            //Ask user to enter an integer
-            int num1 = Convert.ToInt32(Console.ReadLine());
+            
+            //Define the integer
+            int first = 5,
+            int second = 10;
+
+            //Call the 
 
             //user will now enter value displayed above(num2)
             int num2 = Convert.ToInt32(Console.ReadLine());
