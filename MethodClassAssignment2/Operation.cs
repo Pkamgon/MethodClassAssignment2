@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MethodClassAssignment2
 {
-    public class Operation
+    public class MathOps
     {
         //Create a class. In that class, create a void method that takes two integers as parameters.
         //Have the method do a math operation on the first integer and display the second integer to the screen.
