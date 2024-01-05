@@ -14,15 +14,11 @@ namespace MethodClassAssignment2
             Operation operation = new Operation();
             
             //Define the integer
-            int first = 5,
-            int second = 10;
+            int firstInteger = 5,
+            int secondInteger = 10;
 
-            //Call the 
-
-            //user will now enter value displayed above(num2)
-            int num2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter num2: ");
-            
+            //Call the MathOps method with the integers
+            operation.MathOps(firstInteger, secondInteger);    
         }
     }
 }
