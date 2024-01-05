@@ -14,8 +14,8 @@ namespace MethodClassAssignment2
         public  Operation(int num1, int num2) 
         {
             //Perform some math operation on the first integer
-            num1 = num2 *2;
-            Console.WriteLine("The result of the operationon the first integer is:{num1}");
+            num1 = num1 * 2;
+            Console.WriteLine("The result of the operation on the first integer is:{num1}");
             Console.WriteLine("The second integer is:{num2}");
             
         }
