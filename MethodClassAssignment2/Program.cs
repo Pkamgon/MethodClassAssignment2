@@ -12,13 +12,11 @@ namespace MethodClassAssignment2
         {
             //Instantiate Operation class
             Operation operation = new Operation();
-            
-            //Define the integer
-            int firstInteger = 5,
+            int firstInteger = 5;
             int secondInteger = 10;
-
-            //Call the MathOps method with the integers
-            operation.MathOps(firstInteger, secondInteger);    
+            operation.MathOps(firstInteger, secondInteger);
+            operation.MathOps(num1: 7, num2: 15);
+               
         }
     }
 }
